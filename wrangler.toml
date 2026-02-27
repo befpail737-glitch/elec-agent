@@ -5,6 +5,7 @@ compatibility_flags = ["nodejs_compat"]
 # Pages 自动构建配置
 [build]
 command = "npm run build"
+pages_build_output_dir = ".next"
 
 # D1 数据库
 [[d1_databases]]
